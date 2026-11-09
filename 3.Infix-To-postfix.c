@@ -1,6 +1,3 @@
-/* Experiment 3: Infix to Postfix Conversion using Stack
-   Case Study: Vidya College SIS - Converting the CGPA-computation formula
-   entered by faculty into postfix form for the result-processing engine */
 
 #include <stdio.h>
 #include <string.h>
@@ -52,9 +49,7 @@ int precedence(char c)
         return 3;
     return 0;
 }
-
-// Check if character is an operator
-int isOperator(char c)
+
 {
     return (c == '+' || c == '-' || c == '*' || c == '/' || c == '^');
 }
